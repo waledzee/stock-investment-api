@@ -1,4 +1,4 @@
-package com.example.Ivestment_Stock_Api;
+package com.example.Investment_Stock_Api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

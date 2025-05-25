@@ -1,8 +1,8 @@
-package com.example.stockinvestmentapi.model;
+package com.example.Investment_Stock_Api.Models;
 
-import com.example.Ivestment_Stock_Api.Models.PortfolioItem;
-import com.example.Ivestment_Stock_Api.Models.Transaction;
-import com.example.Ivestment_Stock_Api.Models.Wallet;
+import com.example.Investment_Stock_Api.Models.PortfolioItem;
+import com.example.Investment_Stock_Api.Models.Transaction;
+import com.example.Investment_Stock_Api.Models.Wallet;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 

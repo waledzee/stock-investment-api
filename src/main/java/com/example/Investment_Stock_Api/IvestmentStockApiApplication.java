@@ -1,4 +1,4 @@
-package com.example.Ivestment_Stock_Api;
+package com.example.Investment_Stock_Api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
