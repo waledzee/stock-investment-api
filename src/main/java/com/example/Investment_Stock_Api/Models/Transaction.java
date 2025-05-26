@@ -36,6 +36,18 @@ public class Transaction {
     private LocalDateTime transactionDate;
 
     // Getters and Setters
+    public Transaction() {
+
+    }
+    public Transaction(Long id, LocalDateTime transactionDate, BigDecimal price, int quantity, TransactionType transactionType, Stock stock, User user) {
+        this.id = id;
+        this.transactionDate = transactionDate;
+        this.price = price;
+        this.quantity = quantity;
+        this.transactionType = transactionType;
+        this.stock = stock;
+        this.user = user;
+    }
 
     public Long getId() {
         return id;

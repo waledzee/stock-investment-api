@@ -32,6 +32,19 @@ public class Stock {
     private List<Transaction> transactions;
 
     // Getters and Setters
+    public Stock() {
+
+    }
+
+
+    public Stock(Long id, List<Transaction> transactions, List<PortfolioItem> portfolio, BigDecimal currentPrice, String companyName, String symbol) {
+        this.id = id;
+        this.transactions = transactions;
+        this.portfolio = portfolio;
+        this.currentPrice = currentPrice;
+        this.companyName = companyName;
+        this.symbol = symbol;
+    }
 
     public Long getId() {
         return id;
